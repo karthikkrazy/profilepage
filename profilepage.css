@@ -1,0 +1,206 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.top {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+    position: relative;
+    border-bottom: 8px solid orange;
+}
+
+#searchbar {
+    margin-top: 55px;
+    margin-left: 170px;
+    float: left;
+}
+
+#searchbar:hover {
+    box-shadow: 2px 2px 2px;
+    color: orange;
+}
+
+.fist img {
+    width: 130px;
+    float: left;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.create {
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    color: orange;
+    border: orange solid 2px;
+    cursor: pointer;
+}
+
+.supportbtn {
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    border: orange solid 2px;
+    cursor: pointer;
+}
+
+.loginbtn {
+    float: right;
+    margin-right: 50px;
+    border: orange solid 2px;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.left {
+    background-color: orange;
+    width: 50vh;
+    height: 80vh;
+}
+
+.profilepic2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 70px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12vh;
+    margin-top: 20vh;
+    transition: 0.4s ease;
+}
+
+.profilepic2:hover {
+    background-color: green;
+    transform: rotate(-360deg);
+    box-shadow: 1px 1px 1px 1px black;
+    text-decoration: underline;
+}
+
+.edit {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12.5vh;
+    margin-top: 4vh;
+    float: left;
+}
+
+.edit:hover {
+    background-color: grey;
+    transition: 0.4s ease;
+    box-shadow: 1px 1px 1px 1px black;
+    border: black 2px;
+}
+
+.right {
+    float: right;
+    margin-top: -45%;
+    margin-right: 60vh;
+}
+
+.ads {
+    background-color: rgb(63, 61, 61);
+    border: none;
+    color: gainsboro;
+    padding: 120px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12vh;
+    margin-top: 20vh;
+    transition: 0.4s ease;
+}
+
+.ads:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 4px 4px 4px 4px greenyellow;
+}
+
+.design {
+    font-family: OCR A Std, monospace;
+    float: right;
+    font-size: 20px;
+    margin-right: -50vh;
+    margin-top: 39vh;
+}
+
+.design:hover {
+    color: orange;
+    cursor: pointer;
+    border-style: solid;
+    font-size: 25px;
+}
+
+.yourportfolio {
+    margin-top: -30vh;
+    float: left;
+    margin-left: 93.355vh;
+}
+
+.your {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12.5vh;
+    margin-top: 18h;
+    float: left;
+}
+
+.your:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.yourportfolio2 {
+    margin-top: -20vh;
+    float: left;
+    margin-left: 93vh;
+}
+
+.your2 {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 12.5vh;
+    margin-top: 18h;
+    float: left;
+}
+
+.your2:hover {
+    box-shadow: 2px 2px 2px 2px black;
+}
